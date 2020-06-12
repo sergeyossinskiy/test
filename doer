@@ -1,0 +1,10 @@
+<?php
+
+require __DIR__.'/config.php';
+require __DIR__.'/vendor/autoload.php';
+
+use App\Database;
+
+$dt = new Database();
+
+App\Console\Kernel::start($argv);

@@ -1,0 +1,29 @@
+/* Form Style */
+/*
+*  Utilities
+*/
+
+.font-sm{
+    font-size: 12px;
+}
+
+.font-md{
+    font-size: 14px;
+}
+
+
+.row-item{
+    height: 3rem;
+    overflow: hidden;
+}
+
+.col-item{
+    text-align: center;
+    padding: 2px !important;
+    height: 3rem;
+    overflow: hidden;
+}
+
+.pagination{
+    justify-content: center;
+}

@@ -1,0 +1,22 @@
+{
+    "name": "sergey/localhost",
+    "description": "doer;-)",
+    "authors": [
+        {
+            "name": "Sergey Ossinskiy",
+            "email": "sergeyossinskiy@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "5.1.8",
+        "illuminate/pagination": "6.18.19"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require-dev": {
+        "ext-xsl": "*"
+    }
+}
